@@ -1,0 +1,12 @@
+{
+    "metadata": {
+        "name": "route-secure"
+    },
+    "id": "route-secure",
+    "apiVersion": "v1beta1",
+    "kind": "Route",
+    "host": "www.zzhaotest.com",
+    "serviceName": "hello-nginx-secure",
+    "tls": { "termination" : "passthrough" }
+}
+
