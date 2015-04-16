@@ -7,7 +7,7 @@ EXPOSE 80
 EXPOSE 443
 
 ADD conf/ /etc/nginx/
-ADD certs/zzhaotest.com /etc/nginx/
-ADD certs/cert.key /etc/nginx/
+ADD zzhaotest.com /etc/nginx/
+ADD cert.key /etc/nginx/
 
 CMD ["/usr/sbin/nginx"]
